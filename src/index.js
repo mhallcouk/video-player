@@ -8,9 +8,11 @@ const API_KEY = "AIzaSyA75wHqQR6JWceOWQZwNoAGCldUyF0hGiU";
 
 
 const App = () => {
-  return <div>
-    <SearchBar />
-  </div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  );
 }
 
 
