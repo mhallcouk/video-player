@@ -1,32 +1,91 @@
-.search-bar {
-  margin: 20px;
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#root {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.App-header {
+  background-color: #222;
+  height: 130px;
+  padding: 20px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.7rem;
   text-align: center;
+  max-width: 100%;
+  border-bottom:
+}
+
+.search-bar {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .search-bar input {
-  width: 75%;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .video-item img {
   max-width: 64px;
+  margin-right: 10px;
 }
 
 .video-detail .details {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
 }
 
 .list-group {
-  padding: 0;
+  padding: 15px;
+  padding-top: 0;
   margin: 0;
+  border-radius: 5px;
 }
 
 .list-group-item {
   cursor: pointer;
+  background-color: white;
+  border-color: #ddd;
 }
 
 .list-group-item:hover {
-  background-color: #eee;
+  background-color: #ddd;
+}
+
+.loading-div {
+  color: white;
+  height: 200px;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  text-align: center;
+  font-size: 1.3rem;
 }
