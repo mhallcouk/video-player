@@ -44,9 +44,10 @@ div {
   width: 100%;
   border: 1px solid #ddd;
   font-size: 1.4rem;
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
 
 .video-item img {
